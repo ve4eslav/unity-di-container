@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DIContainer
+namespace BaseCon
 {
     public abstract class DIEntry : IDisposable
     {

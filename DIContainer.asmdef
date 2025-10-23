@@ -1,6 +1,6 @@
 {
-    "name": "NewAssembly",
-    "rootNamespace": "DIContainer",
+    "name": "DIContainer",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

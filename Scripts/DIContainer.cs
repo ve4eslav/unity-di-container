@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace DIContainer
+namespace BaseCon
 {
     public class DIContainer : IDisposable
     {
