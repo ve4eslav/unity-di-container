@@ -1,0 +1,11 @@
+{
+  "name": "com.ve4eslav.di-container",
+  "version": "1.0.0",
+  "displayName": "DI Container",
+  "description": "This is a basic DI Container package for Unity.",
+  "unity": "6000.2",
+  "dependencies": {},
+  "author": {
+    "name": "Viacheslav"
+  }
+}
