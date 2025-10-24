@@ -15,12 +15,12 @@ namespace BaseCon
         }
 
         #region Registration Methods
-        public DIEntry RegiserFactory<T>(Func<DIContainer, T> factory)
+        public DIEntry RegisterFactory<T>(Func<DIContainer, T> factory)
         {
-            return RegiserFactory<T>(null, factory);
+            return RegisterFactory<T>(null, factory);
         }
         
-        public DIEntry RegiserFactory<T>(string tag, Func<DIContainer, T> factory)
+        public DIEntry RegisterFactory<T>(string tag, Func<DIContainer, T> factory)
         {
             var key = (tag, typeof(T));
             if (_entriesMap.ContainsKey(key))

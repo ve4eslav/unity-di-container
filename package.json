@@ -1,6 +1,6 @@
 {
   "name": "com.ve4eslav.di-container",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "displayName": "DI Container",
   "description": "This is a basic DI Container package for Unity.",
   "unity": "6000.2",
